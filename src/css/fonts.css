@@ -1,0 +1,19 @@
+@font-face{
+    font-family: MuseoModerno;
+    src: url('/src/fonts/MuseoModerno-Regular.ttf');
+}
+@font-face{
+    font-family: MuseoModerno;
+    src: url('/src/fonts/MuseoModerno-Medium.ttf');
+
+}
+@font-face{
+    font-family: MuseoModerno;
+    src: url('/src/fonts/MuseoModerno-Light.ttf');
+}
+@font-face{
+    font-family: MuseoModerno;
+    src: url('/src/fonts/MuseoModerno-Bold.ttf');
+}
+
+
