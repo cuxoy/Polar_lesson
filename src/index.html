@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Polar</title>
 </head>
 
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -50,8 +51,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="benefits">
+    </section>
+    <section class="benefits">
         <div class="container">
             <h2 class="benefits__title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="benefits__wrapper">
@@ -72,8 +73,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="consultation">
+    </section>
+    <section class="consultation">
         <div class="container">
             <h2 class="consultation__title">Получите бесплатную консультацию <br> по подбору пульсометра </h2>
             <div class="consultation__subtitle">Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут</div>
@@ -84,7 +85,19 @@
                 <button class="button button_consalt">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
-    </div>
-
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div><img src="img/icons/slider/slide№1.png" alt=""></div>
+                <div><img src="img/icons/slider/slide№2.png" alt=""></div>
+                <div><img src="img/icons/slider/slide №3.png" alt=""></div>
+            </div>
+            <button type="button" class="prev"><img src="img/icons/slider/chevron left solid.png" alt=""></button>
+            <button type="button" class="next"><img src="img/icons/slider/chevron right solid.png" alt=""></button>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
