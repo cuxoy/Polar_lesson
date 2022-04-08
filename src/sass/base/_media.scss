@@ -56,6 +56,11 @@
             }
         }
     }
+    .catalog{
+        &__content{
+            justify-content: space-around;
+        }
+    }
     
 }
 @media(max-width: 600px){
@@ -106,6 +111,14 @@
         .container{
             width: 300px;
         }
+    }
+    .catalog{
+        &__tabs{
+            flex-direction: column;
+        }
+        &__tab{
+            margin-top: 20px;
+        }   
     }
 }   
 @media(max-width: 460px){
