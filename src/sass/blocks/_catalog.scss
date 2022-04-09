@@ -93,6 +93,10 @@
             text-align: center;
             text-decoration-line: underline;
             color: #C70101;
+            &:hover{
+                color: #C70101;
+                font-weight: 700;
+            }
 
         }
         hr{

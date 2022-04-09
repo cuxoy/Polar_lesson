@@ -138,6 +138,15 @@
             }
         }
     }
+    .modal{
+        width: 280px;
+        padding: 0;
+        left:40%;
+        input, button{
+            width: 260px;
+        }
+
+    }
 }   
 @media(max-width: 460px){
     .header{
