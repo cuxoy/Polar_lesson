@@ -53,4 +53,10 @@
             display: block;
         }
     }
+    &__map{
+        iframe{
+            width: 100%;
+        }
+    }
+    
 }
